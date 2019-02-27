@@ -1,6 +1,6 @@
 package com.mxy.design.observer;
 
-public interface WeChatSubject {
+public interface WeChatOfficialAccount {
 
     /**
      * 该公众号关注的用户

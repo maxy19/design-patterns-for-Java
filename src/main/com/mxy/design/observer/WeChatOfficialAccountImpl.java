@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class WeChatSubjectImpl implements WeChatSubject {
+public class WeChatOfficialAccountImpl implements WeChatOfficialAccount {
 
     private List<WeChatUser> users = new ArrayList<>();
 
