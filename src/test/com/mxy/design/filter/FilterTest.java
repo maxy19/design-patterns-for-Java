@@ -15,7 +15,7 @@ public class FilterTest {
     public void logicTest() {
         String str = "杀人 放火者杀无赦";
         System.out.println("处理前===="+str);
-        List<Filter> filters = Lists.newArrayList(new SensitiveFilter(), new SpaceFilter());
+        List<Filter> filters = Lists.newArrayList(new SensitiveFilter(), new SpacingFilter());
         for (Filter f : filters) {
             str = f.processString(str);
         }

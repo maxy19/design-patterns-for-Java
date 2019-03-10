@@ -5,7 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * 去空格
  */
-public class SpaceFilter implements Filter {
+public class SpacingFilter implements Filter {
     @Override
     public String processString(String str) {
         if(StringUtils.isNotBlank(str)){
