@@ -5,7 +5,7 @@ package com.mxy.design.singleton.safe;
  */
 public class Singleton {
 
-    private static volatile Singleton ourInstance = null;
+    private static  Singleton ourInstance = null;
 
     public static synchronized Singleton getInstance() {
         if (ourInstance == null) {
