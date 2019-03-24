@@ -1,107 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12a56996-6c64-441a-b128-9ed50c92e420" name="Default Changelist" comment="feat:上传已经完成的设计模式的例子&#10;&#10;subject:已经完成23中设计模式中的">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/classes/adapter/Ps2Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/classes/adapter/Ps2UsbAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/classes/adapter/PsConnectorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/classes/adapter/UsbConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/classes/adapter/UsbConnectorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Linux.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Port.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Tomcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/object/adapater/Ps2Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/object/adapater/Ps2UsbAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/object/adapater/PsConnectorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/object/adapater/UsbConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/adapter/object/adapater/UsbConnectorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/decorator/Cake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/decorator/CakeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/decorator/CakeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/decorator/Candle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/decorator/Fruits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/proxy/IStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/proxy/StudentImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/proxy/StudentProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/cglib/proxy/IStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/cglib/proxy/StudentCglibProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/cglib/proxy/StudentImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/jdk/proxy/IStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/jdk/proxy/StudentImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/jdk/proxy/StudentJdkProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/strategy/DiscountStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/strategy/NewCustomerQuoteStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/strategy/OldCustomerQuoteStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/strategy/StrategyContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/strategy/VipCustomerQuoteStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/mxy/design/template/ProcessTempLate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/mxy/design/adapter/ClassesAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/mxy/design/adapter/InterfaceAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/mxy/design/adapter/ObjectAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/mxy/design/decorator/DecoratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/mxy/design/observer/ObServerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/mxy/design/proxy/DynamicProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/mxy/design/proxy/StaticProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/mxy/design/strategy/StrategyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/mxy/design/template/TempLateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/classes/adapter/Ps2Connector.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/classes/adapter/Ps2UsbAdapter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/classes/adapter/PsConnectorImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/classes/adapter/UsbConnector.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/classes/adapter/UsbConnectorImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/interfaces/adapter/Adapter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/interfaces/adapter/Chat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/interfaces/adapter/Linux.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/interfaces/adapter/Port.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/interfaces/adapter/Tomcat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/object/adapater/Ps2Connector.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/object/adapater/Ps2UsbAdapter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/object/adapater/PsConnectorImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/object/adapater/UsbConnector.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/adapter/object/adapater/UsbConnectorImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/decorator/Cake.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/decorator/CakeDecorator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/decorator/CakeImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/decorator/Candle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/decorator/Fruits.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/observer/WeChatOfficialAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/proxy/IStudent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/proxy/StudentImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/proxy/StudentProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/proxy/dynamic/cglib/proxy/IStudent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/proxy/dynamic/cglib/proxy/StudentCglibProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/proxy/dynamic/cglib/proxy/StudentImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/proxy/dynamic/jdk/proxy/IStudent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/proxy/dynamic/jdk/proxy/StudentImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/proxy/dynamic/jdk/proxy/StudentJdkProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/strategy/DiscountStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/strategy/NewCustomerQuoteStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/strategy/OldCustomerQuoteStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/strategy/StrategyContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/strategy/VipCustomerQuoteStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/template/ProcessTempLate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/mxy/design/adapter/ClassesAdapterTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/mxy/design/adapter/InterfaceAdapterTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/mxy/design/adapter/ObjectAdapterTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/mxy/design/decorator/DecoratorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/mxy/design/observer/ObServerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/mxy/design/proxy/DynamicProxyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/mxy/design/proxy/StaticProxyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/mxy/design/strategy/StrategyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/mxy/design/template/TempLateTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/mxy/design/template/TempLateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="12a56996-6c64-441a-b128-9ed50c92e420" name="Default Changelist" comment="style:modify README table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/mxy/design/observer/MAIN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/mxy/design/observer/WeChatSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/mxy/design/observer/WeChatOfficialAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/mxy/design/observer/WeChatSubjectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/mxy/design/observer/WeChatOfficialAccountImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mxy/design/observer/MAIN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mxy/design/observer/WeChatSubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mxy/design/observer/WeChatSubjectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mxy/design/observer/WeChatOfficialAccountImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,48 +22,65 @@
     <session id="-1498810789">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="32" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.15" value="3" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.13" value="5" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="6" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.17" value="3" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="56" />
-          <entry key="java" value="8012" />
-          <entry key="md" value="106" />
-          <entry key="txt" value="310" />
+          <entry key="dummy" value="75" />
+          <entry key="java" value="18941" />
+          <entry key="md" value="660" />
+          <entry key="txt" value="811" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8012" />
-          <entry key="Markdown" value="106" />
-          <entry key="PLAIN_TEXT" value="366" />
+          <entry key="JAVA" value="18941" />
+          <entry key="Markdown" value="660" />
+          <entry key="PLAIN_TEXT" value="886" />
           <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="8" />
-          <entry key="java" value="142" />
-          <entry key="md" value="6" />
-          <entry key="xml" value="5" />
+          <entry key="AbstractMediator" value="1" />
+          <entry key="ClassesAdapterTest" value="1" />
+          <entry key="ProcessTempLate" value="1" />
+          <entry key="TaobaoBuyer" value="1" />
+          <entry key="TaobaosSller" value="1" />
+          <entry key="aj" value="1" />
+          <entry key="class" value="13" />
+          <entry key="java" value="310" />
+          <entry key="md" value="17" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="8" />
-          <entry key="JAVA" value="142" />
-          <entry key="Markdown" value="6" />
-          <entry key="XML" value="5" />
+          <entry key="AspectJ" value="1" />
+          <entry key="CLASS" value="13" />
+          <entry key="JAVA" value="310" />
+          <entry key="Markdown" value="17" />
+          <entry key="UML" value="5" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -169,13 +88,69 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1953">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="168">
+                <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/composite/AbsFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/composite/Folder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/Java/Java1.8/src.zip!/java/util/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1386">
+              <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/Java/Java1.8/src.zip!/java/util/Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12537">
+              <caret line="617" column="29" selection-start-line="617" selection-start-column="29" selection-end-line="617" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/composite/CompositeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/composite/File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -184,7 +159,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Aspect" />
         <option value="Interface" />
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
@@ -194,11 +171,35 @@
       <find>List&lt;WeChatUser&gt; userList</find>
       <find>TOMCAT</find>
       <find>case1</find>
+      <find>Oracle</find>
+      <find>已上传</find>
+      <find>Iterator</find>
+      <find>java.util.Iterator</find>
+      <find>Invoker invoker</find>
+      <find>Receier recevier</find>
+      <find>s</find>
+      <find>String fileName</find>
+      <find>AbsFolder file</find>
+      <find>AbsFolder absFolder</find>
+      <find>、</find>
+      <find>.</find>
     </findStrings>
     <replaceStrings>
       <replace>WeChatUser weChatUser</replace>
       <replace>Linux</replace>
       <replace>logicTest</replace>
+      <replace>Mysql</replace>
+      <replace>已完成</replace>
+      <replace>Recevier recevier</replace>
+      <replace>Receiver receiver</replace>
+      <replace>fileName</replace>
+      <replace>AbsFolder file</replace>
+      <replace>File file</replace>
+      <replace>*</replace>
+      <replace>。</replace>
+      <replace>.</replace>
+      <replace>*</replace>
+      <replace>&lt;br&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -207,56 +208,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/com/mxy/design/Strategy/StrategyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/strategy/NewCustomerQuoteStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/Ps2ConnectorImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/ObjectAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/Mouse.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/UsbMouse.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/UsbAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/UsbConnector.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/PsConnectorImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/UsbConnectorImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/Ps2Connector.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/Ps2UsbAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/object/adapater/Ps2UsbAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/object/adapater/classes/adapter/UsbConnectorImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/classes/adapter/Ps2UsbAdapter.java" />
-        <option value="$PROJECT_DIR$/src/test/com/mxy/design/adapter/AdapterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/adapter.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Port.java" />
-        <option value="$PROJECT_DIR$/src/test/com/mxy/design/adapter/ClassesAdapterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Wrapper.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Adapter.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Linux.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Chat.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Tomcat.java" />
-        <option value="$PROJECT_DIR$/src/test/com/mxy/design/adapter/InterfaceAdapterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/mxy/design/adapter/ObjectAdapterTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/decorator/Candle.java" />
-        <option value="$PROJECT_DIR$/src/test/com/mxy/design/decorator/DecoratorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/proxy/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/proxy/User.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/proxy/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/proxy/IStudent.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/proxy/StudentImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/proxy/StudentImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/com/mxy/design/proxy/ProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/proxy/StudentProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/proxy/StudentProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/proxy/StudentHandle.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/cglib/proxy/StudentImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/cglib/proxy/StudentHandle.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/cglib/proxy/StudentCglibProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/jdk/proxy/StudentJdkProxy.java" />
-        <option value="$PROJECT_DIR$/src/test/com/mxy/design/proxy/StaticProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/mxy/design/proxy/DynamicProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/template/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/template/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/com/mxy/design/template/ProcessTempLate.java" />
-        <option value="$PROJECT_DIR$/src/test/com/mxy/design/template/TempLateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/state/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/state/InitOrderState.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/state/InitOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/state/OrderProcess.java" />
+        <option value="$PROJECT_DIR$/src/test/com/mxy/design/state/StateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/state/CreateOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/state/FinishOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/state/PaymentOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/state/PlaceOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/com/mxy/design/command/FilterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/command/Receive.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/command/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/command/Pass.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/command/Shoot.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/command/Dunk.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/command/Receiver.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/command/Invoker.java" />
+        <option value="$PROJECT_DIR$/src/test/com/mxy/design/command/CommandTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/visitor/Ball.java" />
+        <option value="$PROJECT_DIR$/src/test/com/mxy/design/visitor/DecoratorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/visitor/ShoppingCartService.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/visitor/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/visitor/ShoppingCartImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/visitor/Goods.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/visitor/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/visitor/Food.java" />
+        <option value="$PROJECT_DIR$/src/test/com/mxy/design/visitor/VisitorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/singleton/hungry/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/singleton/hungry/lazy/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/singleton/inner/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/singleton/dcl/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/singleton/enum_/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/singleton/lazy/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/test/com/mxy/design/singleton/SingletonTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/singleton/safe/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/memento/Memento.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/memento/OrderStateProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/memento/OrderState.java" />
+        <option value="$PROJECT_DIR$/src/test/com/mxy/design/memento/MementoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/composite/ImageAbstractFile.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/composite/AbsFolder.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/composite/ImageFolder.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/composite/TextFolder.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/composite/AbsFile.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/composite/ImageFile.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/composite/TextFile.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/composite/Folder.java" />
+        <option value="$PROJECT_DIR$/src/main/com/mxy/design/composite/File.java" />
+        <option value="$PROJECT_DIR$/src/test/com/mxy/design/composite/CompositeTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -299,10 +300,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2549" />
+    <option name="x" value="-11" />
     <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1072" />
+    <option name="width" value="2582" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -310,8 +311,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,20 +336,48 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551279489784" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553438380417" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Design-patterns-Decorator-pattern_v2/Design patterns-Decorator pattern/设计模式之装饰者模式-上线资源包/源码" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/com/mxy/design/singleton" />
+    <property name="last_opened_file_path" value="E:/IdeaProduct/lenovo/liecomm-hybris_new/liecomm-hybris" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -360,21 +387,24 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mxy.design.singleton" />
+      <recent name="com.mxy.design.factory.general" />
       <recent name="com.mxy.design.adapter" />
       <recent name="com.mxy.design.Strategy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mxy.design.proxy" />
-      <recent name="com.mxy.design.adapter.interfaces.adapter" />
-      <recent name="com.mxy.design.adapter" />
-      <recent name="com.mxy.design.Strategy" />
-      <recent name="com.mxy.design.decorator" />
+      <recent name="com.mxy.design.composite" />
+      <recent name="com.mxy.design.singleton.safe" />
+      <recent name="com.mxy.design.singleton.inner" />
+      <recent name="com.mxy.design.singleton.enum_" />
+      <recent name="com.mxy.design.singleton.dcl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GithubRepository\DesignPatterns\src\test\com\mxy\design" />
+      <recent name="E:\GithubRepository\DesignPatterns\src\main\com\mxy\design" />
+      <recent name="E:\GithubRepository\DesignPatterns\src\main\com\mxy\design\singleton" />
+      <recent name="E:\GithubRepository\DesignPatterns\src\main\com\mxy\design\factory\abstract_" />
       <recent name="E:\GithubRepository\DesignPatterns\src\main\com\mxy\design\proxy\dynamic\cglib\proxy" />
-      <recent name="E:\GithubRepository\DesignPatterns\src\main\com\mxy\design\proxy\dynamic\proxy" />
-      <recent name="E:\GithubRepository\DesignPatterns\src\main\com\mxy\design\adapter\object\adapater\classes\adapter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -389,7 +419,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TempLateTest.logicTest">
+  <component name="RunManager" selected="JUnit.CompositeTest.logicTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -402,50 +432,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicProxyTest.cglibProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompositeTest.logicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mxy.design.proxy.*" />
+          <option name="PATTERN" value="com.mxy.design.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mxy.design.proxy" />
-      <option name="MAIN_CLASS_NAME" value="com.mxy.design.proxy.DynamicProxyTest" />
-      <option name="METHOD_NAME" value="cglibProxyTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicProxyTest.jdkProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mxy.design.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mxy.design.proxy" />
-      <option name="MAIN_CLASS_NAME" value="com.mxy.design.proxy.DynamicProxyTest" />
-      <option name="METHOD_NAME" value="jdkProxyTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProxyTest.logicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mxy.design.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mxy.design.proxy" />
-      <option name="MAIN_CLASS_NAME" value="com.mxy.design.proxy.ProxyTest" />
+      <option name="PACKAGE_NAME" value="com.mxy.design.composite" />
+      <option name="MAIN_CLASS_NAME" value="com.mxy.design.composite.CompositeTest" />
       <option name="METHOD_NAME" value="logicTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -453,16 +449,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticProxyTest.logicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediatorTest.logicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mxy.design.proxy.*" />
+          <option name="PATTERN" value="com.mxy.design.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mxy.design.proxy" />
-      <option name="MAIN_CLASS_NAME" value="com.mxy.design.proxy.StaticProxyTest" />
+      <option name="PACKAGE_NAME" value="com.mxy.design.mediator" />
+      <option name="MAIN_CLASS_NAME" value="com.mxy.design.mediator.MediatorTest" />
       <option name="METHOD_NAME" value="logicTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -470,17 +466,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TempLateTest.logicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MementoTest.logicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mxy.design.template.*" />
+          <option name="PATTERN" value="com.mxy.design.memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mxy.design.template" />
-      <option name="MAIN_CLASS_NAME" value="com.mxy.design.template.TempLateTest" />
+      <option name="PACKAGE_NAME" value="com.mxy.design.memento" />
+      <option name="MAIN_CLASS_NAME" value="com.mxy.design.memento.MementoTest" />
       <option name="METHOD_NAME" value="logicTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mxy.design.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mxy.design.singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.mxy.design.singleton.SingletonTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest.logicTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mxy.design.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mxy.design.singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.mxy.design.singleton.SingletonTest" />
+      <option name="METHOD_NAME" value="logicTest3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -511,19 +539,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ProxyTest.logicTest" />
-      <item itemvalue="JUnit.StaticProxyTest.logicTest" />
-      <item itemvalue="JUnit.DynamicProxyTest.cglibProxyTest" />
-      <item itemvalue="JUnit.DynamicProxyTest.jdkProxyTest" />
-      <item itemvalue="JUnit.TempLateTest.logicTest" />
+      <item itemvalue="JUnit.SingletonTest.logicTest3" />
+      <item itemvalue="JUnit.SingletonTest" />
+      <item itemvalue="JUnit.MementoTest.logicTest" />
+      <item itemvalue="JUnit.MediatorTest.logicTest" />
+      <item itemvalue="JUnit.CompositeTest.logicTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TempLateTest.logicTest" />
-        <item itemvalue="JUnit.DynamicProxyTest.jdkProxyTest" />
-        <item itemvalue="JUnit.DynamicProxyTest.cglibProxyTest" />
-        <item itemvalue="JUnit.StaticProxyTest.logicTest" />
-        <item itemvalue="JUnit.ProxyTest.logicTest" />
+        <item itemvalue="JUnit.CompositeTest.logicTest" />
+        <item itemvalue="JUnit.MediatorTest.logicTest" />
+        <item itemvalue="JUnit.MementoTest.logicTest" />
+        <item itemvalue="JUnit.SingletonTest.logicTest3" />
+        <item itemvalue="JUnit.SingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -549,6 +577,29 @@
       <workItem from="1550974233948" duration="11304000" />
       <workItem from="1551010336242" duration="2894000" />
       <workItem from="1551103050633" duration="3558000" />
+      <workItem from="1551485340231" duration="16000" />
+      <workItem from="1551622834873" duration="3830000" />
+      <workItem from="1551794445316" duration="4164000" />
+      <workItem from="1551880938742" duration="6151000" />
+      <workItem from="1551968165704" duration="16000" />
+      <workItem from="1552053814319" duration="2120000" />
+      <workItem from="1552092828500" duration="506000" />
+      <workItem from="1552093365863" duration="12356000" />
+      <workItem from="1552142146418" duration="3866000" />
+      <workItem from="1552178742511" duration="814000" />
+      <workItem from="1552196623480" duration="1047000" />
+      <workItem from="1552311917657" duration="3149000" />
+      <workItem from="1552318943800" duration="59000" />
+      <workItem from="1552571836584" duration="3426000" />
+      <workItem from="1552698473992" duration="666000" />
+      <workItem from="1552720314678" duration="10736000" />
+      <workItem from="1552735909972" duration="8603000" />
+      <workItem from="1552787846626" duration="6150000" />
+      <workItem from="1552919078164" duration="524000" />
+      <workItem from="1553002828683" duration="379000" />
+      <workItem from="1553396870577" duration="3157000" />
+      <workItem from="1553421838467" duration="9125000" />
+      <workItem from="1553434825805" duration="3519000" />
     </task>
     <task id="LOCAL-00001" summary="refactor:切换到单测">
       <created>1550497556468</created>
@@ -697,48 +748,238 @@
       <option name="project" value="LOCAL" />
       <updated>1551107455450</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat:上传工厂模式的静态工厂方法例子">
+      <created>1551627455255</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1551627455256</updated>
+    </task>
+    <task id="LOCAL-00023" summary="refactor:修改readme信息">
+      <created>1551627540268</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1551627540268</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat:上传抽象工厂模式例子">
+      <created>1551799061847</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1551799061847</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat:修改 readme">
+      <created>1551799094409</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1551799094409</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat:修改 readme 代理模式-静态代理与动态代理">
+      <created>1551799171117</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1551799171117</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat:修改 readme 标题">
+      <created>1551881420689</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1551881420690</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat:修改 readme 标题">
+      <created>1551881829056</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1551881829056</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat:上传桥接模式例子">
+      <created>1551887690878</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1551887690878</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat:上传中介者模式例子">
+      <created>1552126961569</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1552126961569</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat:上传责任链模式例子">
+      <created>1552146767210</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1552146767210</updated>
+    </task>
+    <task id="LOCAL-00032" summary="refactor:修改类名SpaceFilter为SpacingFilter">
+      <created>1552179971026</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1552179971026</updated>
+    </task>
+    <task id="LOCAL-00033" summary="refactor：修改ReadMe内容">
+      <created>1552196676740</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1552196676740</updated>
+    </task>
+    <task id="LOCAL-00034" summary="feat:状态模式事例完成">
+      <created>1552318816926</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1552318816926</updated>
+    </task>
+    <task id="LOCAL-00035" summary="refactor：修改ReadMe内容">
+      <created>1552318972644</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1552318972644</updated>
+    </task>
+    <task id="LOCAL-00036" summary="feat:上传命令模式例子与修改readMe">
+      <created>1552575368080</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1552575368080</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat:上传访问者模式例子">
+      <created>1552733985389</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1552733985389</updated>
+    </task>
+    <task id="LOCAL-00038" summary="refactor:修改VisitorTest注释">
+      <created>1552735960462</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1552735960462</updated>
+    </task>
+    <task id="LOCAL-00039" summary="style:改变排版风格 并增加readMe内容">
+      <created>1552742656924</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1552742656924</updated>
+    </task>
+    <task id="LOCAL-00040" summary="feat:上传单利模式例子">
+      <created>1552747156020</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1552747156020</updated>
+    </task>
+    <task id="LOCAL-00041" summary="fix:线程安全类去掉volatile关键字">
+      <created>1552788273597</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1552788273597</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat:上传备忘录模式例子">
+      <created>1552797299442</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1552797299442</updated>
+    </task>
+    <task id="LOCAL-00043" summary="feat:上传组合模式例子">
+      <created>1553434739471</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1553434739471</updated>
+    </task>
+    <task id="LOCAL-00044" summary="refactor:modify README">
+      <created>1553436855429</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1553436855429</updated>
+    </task>
+    <task id="LOCAL-00045" summary="style:modify README">
+      <created>1553436936841</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1553436936841</updated>
+    </task>
+    <task id="LOCAL-00046" summary="style:modify README">
+      <created>1553437074653</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1553437074653</updated>
+    </task>
+    <task id="LOCAL-00047" summary="style:modify README">
+      <created>1553437769509</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1553437769509</updated>
+    </task>
+    <task id="LOCAL-00048" summary="style:修改readme表格">
+      <created>1553438176861</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1553438176861</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DynamicProxyTest_jdkProxyTest - 2019.02.24 at 21h 26m 57s.xml">
-      <configuration name="DynamicProxyTest.jdkProxyTest" configurationId="JUnit" />
+    <history-entry file="CompositeTest_logicTest - 2019.03.24 at 21h 30m 10s.xml">
+      <configuration name="CompositeTest.logicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TempLateTest_logicTest - 2019.02.25 at 23h 00m 15s.xml">
-      <configuration name="TempLateTest.logicTest" configurationId="JUnit" />
+    <history-entry file="CompositeTest_logicTest - 2019.03.24 at 21h 32m 39s.xml">
+      <configuration name="CompositeTest.logicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TempLateTest_logicTest - 2019.02.25 at 23h 00m 36s.xml">
-      <configuration name="TempLateTest.logicTest" configurationId="JUnit" />
+    <history-entry file="CompositeTest_logicTest - 2019.03.24 at 21h 33m 02s.xml">
+      <configuration name="CompositeTest.logicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TempLateTest_logicTest - 2019.02.25 at 23h 00m 52s.xml">
-      <configuration name="TempLateTest.logicTest" configurationId="JUnit" />
+    <history-entry file="CompositeTest_logicTest - 2019.03.24 at 21h 33m 21s.xml">
+      <configuration name="CompositeTest.logicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TempLateTest_logicTest - 2019.02.25 at 23h 01m 22s.xml">
-      <configuration name="TempLateTest.logicTest" configurationId="JUnit" />
+    <history-entry file="CompositeTest_logicTest - 2019.03.24 at 21h 34m 12s.xml">
+      <configuration name="CompositeTest.logicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TempLateTest_logicTest - 2019.02.25 at 23h 03m 18s.xml">
-      <configuration name="TempLateTest.logicTest" configurationId="JUnit" />
+    <history-entry file="CompositeTest_logicTest - 2019.03.24 at 21h 36m 18s.xml">
+      <configuration name="CompositeTest.logicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TempLateTest_logicTest - 2019.02.25 at 23h 03m 44s.xml">
-      <configuration name="TempLateTest.logicTest" configurationId="JUnit" />
+    <history-entry file="CompositeTest_logicTest - 2019.03.24 at 21h 36m 31s.xml">
+      <configuration name="CompositeTest.logicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TempLateTest_logicTest - 2019.02.25 at 23h 05m 35s.xml">
-      <configuration name="TempLateTest.logicTest" configurationId="JUnit" />
+    <history-entry file="CompositeTest_logicTest - 2019.03.24 at 21h 37m 20s.xml">
+      <configuration name="CompositeTest.logicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TempLateTest_logicTest - 2019.02.25 at 23h 06m 19s.xml">
-      <configuration name="TempLateTest.logicTest" configurationId="JUnit" />
+    <history-entry file="CompositeTest_logicTest - 2019.03.24 at 21h 38m 01s.xml">
+      <configuration name="CompositeTest.logicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TempLateTest_logicTest - 2019.02.25 at 23h 06m 38s.xml">
-      <configuration name="TempLateTest.logicTest" configurationId="JUnit" />
+    <history-entry file="CompositeTest_logicTest - 2019.03.24 at 21h 38m 13s.xml">
+      <configuration name="CompositeTest.logicTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58327000" />
+    <option name="totallyTimeSpent" value="143325000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2549" y="-11" width="1942" height="1072" extended-state="6" />
+    <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1888154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -746,24 +987,25 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35722286" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5229563" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3617021" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32922733" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="JProfiler" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32922733" />
-      <window_info anchor="bottom" id="Hybris Console" order="15" />
-      <window_info anchor="bottom" id="Tail" order="16" />
-      <window_info anchor="bottom" id="Problems" order="17" />
+      <window_info anchor="bottom" id="SonarLint" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32922733" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.43896976" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.5216837" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.83035713" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32922733" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="JProfiler" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32908162" />
+      <window_info anchor="bottom" id="Hybris Console" order="16" />
+      <window_info anchor="bottom" id="Tail" order="17" />
+      <window_info anchor="bottom" id="Problems" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -776,45 +1018,6 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18443497" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35722286" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5229563" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.36730123" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32922733" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="JProfiler" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32922733" />
-      <window_info anchor="bottom" id="Hybris Console" order="15" />
-      <window_info anchor="bottom" id="Tail" order="16" />
-      <window_info anchor="bottom" id="Problems" order="17" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.16897655" />
-      <window_info anchor="right" id="SciView" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -823,21 +1026,32 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor:切换到单测" />
-    <MESSAGE value="refactor:去掉无用的包" />
-    <MESSAGE value="feat:增加装饰模式test类" />
-    <MESSAGE value="feat:增加装饰模式并增加观察者模式的注释" />
-    <MESSAGE value="feat：策略模式" />
-    <MESSAGE value="refactor:该包名" />
-    <MESSAGE value="feat:增加适配器模式" />
-    <MESSAGE value="refactor:适配器 已上传" />
-    <MESSAGE value="refactor: rename method logicTest" />
-    <MESSAGE value="refactor:修改 readme" />
-    <MESSAGE value="feat：动态代理" />
-    <MESSAGE value="feat:修改 readme" />
     <MESSAGE value="临时" />
     <MESSAGE value="feat:模板模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:模板模式" />
+    <MESSAGE value="feat:上传工厂模式的静态工厂方法例子" />
+    <MESSAGE value="refactor:修改readme信息" />
+    <MESSAGE value="feat:上传抽象工厂模式例子" />
+    <MESSAGE value="feat:修改 readme" />
+    <MESSAGE value="feat:修改 readme 代理模式-静态代理与动态代理" />
+    <MESSAGE value="feat:修改 readme 标题" />
+    <MESSAGE value="feat:上传桥接模式例子" />
+    <MESSAGE value="feat:上传中介者模式例子" />
+    <MESSAGE value="feat:上传责任链模式例子" />
+    <MESSAGE value="refactor:修改类名SpaceFilter为SpacingFilter" />
+    <MESSAGE value="feat:状态模式事例完成" />
+    <MESSAGE value="refactor：修改ReadMe内容" />
+    <MESSAGE value="feat:上传命令模式例子与修改readMe" />
+    <MESSAGE value="feat:上传访问者模式例子" />
+    <MESSAGE value="refactor:修改VisitorTest注释" />
+    <MESSAGE value="style:改变排版风格 并增加readMe内容" />
+    <MESSAGE value="feat:上传单利模式例子" />
+    <MESSAGE value="fix:线程安全类去掉volatile关键字" />
+    <MESSAGE value="feat:上传备忘录模式例子" />
+    <MESSAGE value="feat:上传组合模式例子" />
+    <MESSAGE value="refactor:modify README" />
+    <MESSAGE value="style:modify README" />
+    <MESSAGE value="style:修改readme表格" />
+    <option name="LAST_COMMIT_MESSAGE" value="style:修改readme表格" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -867,22 +1081,16 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://E:/Java/Java1.8/src.zip!/java/lang/reflect/Proxy.java</url>
-          <line>709</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/jdk/proxy/StudentJdkProxy.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://E:/Java/Java1.8/src.zip!/java/lang/reflect/Method.java</url>
-          <line>487</line>
+          <url>file://$PROJECT_DIR$/src/main/com/mxy/design/mediator/Mediator.java</url>
+          <line>62</line>
           <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -902,94 +1110,249 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/adapter/classes/adapter/Ps2UsbAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Chat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Port.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Linux.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/adapter/interfaces/adapter/Tomcat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/adapter/object/adapater/Ps2UsbAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/observer/ObServerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/strategy/StrategyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/adapter/InterfaceAdapterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/command/CommandTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/adapter/ClassesAdapterTest.java">
+    <entry file="jar://E:/Java/Java1.8/src.zip!/javax/lang/model/util/ElementScanner6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/visitor/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/visitor/ShoppingCartImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/Java1.8/src.zip!/javax/lang/model/util/Elements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/visitor/ShoppingCartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/Java1.8/src.zip!/javax/lang/model/element/ElementVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/Java1.8/src.zip!/javax/lang/model/util/SimpleElementVisitor6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/visitor/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/visitor/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/visitor/VisitorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/Java1.8/jre/lib/rt.jar!/javax/lang/model/type/TypeVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/Java1.8/src.zip!/javax/lang/model/util/AbstractTypeVisitor6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/Java1.8/src.zip!/javax/lang/model/util/SimpleTypeVisitor8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/Java1.8/src.zip!/javax/lang/model/util/ElementKindVisitor6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="94" column="40" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/singleton/innerClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/singleton/dcl/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/singleton/inner/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/Java1.8/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="2069" column="31" selection-start-line="2069" selection-start-column="23" selection-end-line="2069" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/Java1.8/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4116">
+          <caret line="196" column="12" selection-start-line="196" selection-start-column="12" selection-end-line="196" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/Java1.8/src.zip!/java/util/concurrent/ForkJoinPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64953">
+          <caret line="3119" column="19" selection-start-line="3119" selection-start-column="19" selection-end-line="3119" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/Java1.8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29967">
+          <caret line="1449" column="19" selection-start-line="1449" selection-start-column="19" selection-end-line="1449" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/singleton/hungry/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/singleton/lazy/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/singleton/enum_/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/singleton/safe/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/Java1.8/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2554">
+          <caret line="137" column="27" selection-start-line="137" selection-start-column="27" selection-end-line="137" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/singleton/SingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/memento/OrderStateProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/memento/OrderState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/adapter/ObjectAdapterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/memento/MementoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="325">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/Java1.8/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="771" column="25" selection-start-line="771" selection-start-column="25" selection-end-line="771" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/memento/Memento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/decorator/Cake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/decorator/CakeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/decorator/Fruits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1000,22 +1363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/decorator/CakeImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/decorator/Candle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/proxy/Person.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/proxy/User.java" />
     <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/decorator/DecoratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1023,229 +1370,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/jdk/proxy/IStudent.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/jdk/proxy/StudentImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/mediator/MediatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="339">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/Java1.8/src.zip!/java/lang/reflect/InvocationHandler.java">
+    <entry file="jar://E:/Java/Java1.8/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="428">
+          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/Java1.8/jre/lib/rt.jar!/sun/reflect/MethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/Java1.8/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="90" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/Java1.8/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/cglib/proxy/IStudent.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/cglib/proxy/StudentImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/proxy/IStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/Java1.8/src.zip!/java/lang/reflect/WeakCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/proxy/StaticProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/proxy/StudentProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/cglib/proxy/StudentCglibProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/MavenRepository/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/Java1.8/jre/lib/rt.jar!/sun/reflect/ReflectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/Java1.8/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="1824" column="25" selection-start-line="1824" selection-start-column="25" selection-end-line="1824" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/proxy/StudentImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/Java1.8/src.zip!/java/lang/reflect/Constructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="423" selection-start-line="423" selection-end-line="423" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/Java1.8/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="738" selection-start-line="738" selection-end-line="738" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/proxy/dynamic/jdk/proxy/StudentJdkProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/Java1.8/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="487" selection-start-line="487" selection-end-line="487" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/proxy/DynamicProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/MavenRepository/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21.jar!/org/apache/log4j/Log4jLoggerFactory.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/template/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/template/ProcessTempLate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/template/TempLateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/composite/ImageFolder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/composite/TextFolder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/composite/ImageFile.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="294">
-            <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <first_editor relative-caret-position="168">
+            <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/Java1.8/src.zip!/java/text/Format.java">
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/composite/AbsFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/composite/Folder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/Java1.8/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
-          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/Java1.8/src.zip!/java/text/Normalizer.java">
+    <entry file="jar://E:/Java/Java1.8/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="159" column="39" selection-start-line="159" selection-start-column="30" selection-end-line="159" selection-end-column="39" />
+        <state relative-caret-position="12537">
+          <caret line="617" column="29" selection-start-line="617" selection-start-column="29" selection-end-line="617" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/Java1.8/src.zip!/java/lang/Number.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/mxy/design/composite/CompositeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="58" column="6" lean-forward="true" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+        <state relative-caret-position="336">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/Java1.8/src.zip!/java/lang/Cloneable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/com/mxy/design/composite/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        <state relative-caret-position="210">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1953">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">
