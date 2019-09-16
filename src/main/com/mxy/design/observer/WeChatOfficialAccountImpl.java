@@ -34,14 +34,10 @@ public class WeChatOfficialAccountImpl implements WeChatOfficialAccount {
 
     @Override
     public boolean notifyObServer(String sendMsg) {
-        articleInfo(sendMsg);
-        return true;
-    }
-
-    private void articleInfo(String articleInfo) {
-        Preconditions.checkArgument(StringUtils.isNotBlank(articleInfo));
+        Preconditions.checkArgument(StringUtils.isNotBlank(sendMsg));
         users.stream().forEach(u -> {
-            u.update(u.getUserName() + "-已收到文章-" + articleInfo + ".");
+            u.update(u.getUserName() + "-已收到文章-" + sendMsg + ".");
         });
+        return true;
     }
 }
