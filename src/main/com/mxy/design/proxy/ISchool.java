@@ -1,6 +1,6 @@
 package com.mxy.design.proxy;
 
-public interface IStudent {
+public interface ISchool {
 
     void save();
 

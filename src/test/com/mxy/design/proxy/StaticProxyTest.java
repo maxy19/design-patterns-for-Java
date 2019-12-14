@@ -22,12 +22,12 @@ public class StaticProxyTest {
     @Test
     public void logicTest() {
         System.out.println("====使用代理模式前");
-        IStudent iStudent = new StudentImpl();
-        iStudent.save();
-        iStudent.delete();
+        ISchool iSchool = new SchoolImpl();
+        iSchool.save();
+        iSchool.delete();
         System.out.println();
-        System.out.println("=====使用代理模式后");
-        IStudent studentProxy =  new StudentProxy(iStudent);
+        System.out.println("=====使用静态代理模式后");
+        ISchool studentProxy =  new SchoolProxy(iSchool);
         studentProxy.save();
         studentProxy.delete();
     }
