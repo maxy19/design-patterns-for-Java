@@ -11,20 +11,20 @@ import java.lang.reflect.Proxy;
  * 1.当Bean实现接口时，Spring就会用JDK的动态代理。
  * 2.当Bean没有实现接口时，Spring使用CGlib是实现。
  */
-public class SchoolJdkProxy implements InvocationHandler {
+public class JdkProxy implements InvocationHandler {
 
     private Object target;
 
-    public SchoolJdkProxy(Object object) {
-        this.target = object;
-    }
-
-    public <T> T getInstance() {
+    public <T> T getInstance(Object target) {
+        this.target = target;
         return (T) Proxy.newProxyInstance(target.getClass().getClassLoader(), target.getClass().getInterfaces(), this);
     }
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        return method.invoke(target, args);
+        System.out.println("被代理对象:" + target.getClass() + ":调用方法:" + method.getName() + ":前置通知:开启事务");
+        Object invoke = method.invoke(target, args);
+        System.out.println("被代理对象:" + target.getClass() + ":调用方法:" + method.getName() + ":后置通知:提交事务");
+        return invoke;
     }
 }

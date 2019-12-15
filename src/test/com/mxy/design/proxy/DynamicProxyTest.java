@@ -1,12 +1,14 @@
 package com.mxy.design.proxy;
 
-import com.mxy.design.proxy.dynamic.cglib.proxy.StudentCglibProxy;
+import com.mxy.design.proxy.dynamic.cglib.proxy.CglibProxy;
 import com.mxy.design.proxy.dynamic.cglib.proxy.StudentService;
 import com.mxy.design.proxy.dynamic.cglib.proxy.StudentServiceExtendChildren;
-import com.mxy.design.proxy.dynamic.jdk.proxy.SchoolJdkProxy;
+import com.mxy.design.proxy.dynamic.cglib.proxy.TeacherService;
+import com.mxy.design.proxy.dynamic.jdk.proxy.JdkProxy;
+import com.mxy.design.proxy.dynamic.jdk.proxy.SchoolImpl;
 import org.junit.Test;
 
-import java.util.Random;
+import java.io.IOException;
 
 /**
  * 装饰模式:增加功能,不改变接口
@@ -21,55 +23,28 @@ import java.util.Random;
 public class DynamicProxyTest {
 
     @Test
-    public void cglibProxyTest() {
+    public void cglibProxyTest() throws IOException {
         System.out.println("=====使用CGLIB代理模式");
         //去掉下面注释可以 会在指定位置生成文件
         //System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY, ".\\\\classes");
-        StudentService cglibProxy = new StudentCglibProxy().getInstance(new StudentServiceExtendChildren());
-        save(cglibProxy);
-        delete(cglibProxy);
+        TeacherService teacherService = new CglibProxy().getInstance(new TeacherService(""));
+        teacherService.save();
+
+        System.out.println();
+
+        StudentService studentService = new CglibProxy().getInstance(new StudentServiceExtendChildren(""));
+        studentService.delete();
     }
 
     @Test
     public void jdkProxyTest() {
         System.out.println("=====使用JDK动态代理模式");
-        ISchool jdkProxy = new SchoolJdkProxy(new SchoolImpl()).getInstance();
-        //与静态代理输出结果保持一致
-        save(jdkProxy);
-        //查询是否存在
-        delete(jdkProxy);
-    }
+        ISchool jdkProxy = new JdkProxy().getInstance(new SchoolImpl(""));
 
-    private void delete(ISchool jdkProxy) {
-        if (new Random().nextBoolean()) {
-            System.out.println("===开启事务");
-            jdkProxy.delete();
-            System.out.println("===提交事务");
-        } else {
-            System.out.println("===该用户已经被删除");
-        }
-    }
-
-    private void save(ISchool jdkProxy) {
-        System.out.println("==开启事务");
         jdkProxy.save();
-        System.out.println("==提交事务");
-    }
 
-    public void save(StudentService cglibProxy) {
-        System.out.println("==开启事务");
-        cglibProxy.save();
-        System.out.println("==提交事务");
-    }
+        System.out.println();
 
-    public void delete(StudentService cglibProxy) {
-        if (new Random().nextBoolean()) {
-            System.out.println("===开启事务");
-            cglibProxy.delete();
-            System.out.println("===提交事务");
-        } else {
-            System.out.println("===该用户已经被删除");
-        }
+        jdkProxy.delete();
     }
-
 }
