@@ -1,11 +1,11 @@
 package com.mxy.design.singleton;
 
 import com.mxy.design.singleton.enum_.Singleton;
+import lombok.SneakyThrows;
 import org.junit.Test;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 /**
  * 单利模式:单例对象的类只能允许一个实例存在。
@@ -25,7 +25,7 @@ public class SingletonTest {
 
     @Test
     public void logicTest1() {
-        for (int i = 0; i <10 ; i++) {
+        for (int i = 0; i < 10; i++) {
             System.out.println(com.mxy.design.singleton.lazy.Singleton.getInstance());
         }
         System.out.println("懒汉模式");
@@ -33,7 +33,7 @@ public class SingletonTest {
 
     @Test
     public void logicTest2() {
-        for (int i = 0; i <10 ; i++) {
+        for (int i = 0; i < 10; i++) {
             System.out.println(com.mxy.design.singleton.hungry.Singleton.getInstance());
         }
         System.out.println("饿汉模式");
@@ -59,7 +59,7 @@ public class SingletonTest {
             threadPool.execute(new Runnable() {
                 @Override
                 public void run() {
-                    System.out.println(com.mxy.design.singleton.dcl.Singleton.getInstance());
+                    System.out.println(com.mxy.design.singleton.dcl.Singleton.getInstance().hashCode());
                 }
             });
         }
@@ -95,14 +95,11 @@ public class SingletonTest {
         System.out.println("静态内部类模式");
     }
 
+    @SneakyThrows
     private void shutDownThreadPool() {
         threadPool.shutdown();
-        try {
-            if (!threadPool.awaitTermination(5, TimeUnit.SECONDS)) {
-                threadPool.shutdownNow();
-            }
-        } catch (InterruptedException e) {
-            threadPool.shutdownNow();
+        while (!threadPool.isTerminated()) {
+            Thread.sleep(100);
         }
     }
 
